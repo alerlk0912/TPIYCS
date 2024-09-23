@@ -14,6 +14,6 @@ public class DetallePedido {
     private BigDecimal precioUnitario;
     private BigDecimal descuento;
     private BigDecimal precioFinal;
-
-
+    private Integer IVA;
+    private String descripcion;
 }
