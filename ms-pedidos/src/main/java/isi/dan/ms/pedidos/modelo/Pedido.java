@@ -20,6 +20,7 @@ public class Pedido {
     private String observaciones;
 
     private Cliente cliente;
+    private BigDecimal subTotal;
     private BigDecimal total;
 
     @Field("detalle")
